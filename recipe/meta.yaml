@@ -1,5 +1,5 @@
 {% set name = "vulkan-memory-allocator" %}
-{% set version = "3.1.0" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ae134ecc37c55634f108e926f85d5d887b670360e77cd107affaf3a9539595f2
+  sha256: c4f6bbe6b5a45c2eb610ca9d231158e313086d5b1a40c9922cb42b597419b14e
 
 build:
   number: 0
