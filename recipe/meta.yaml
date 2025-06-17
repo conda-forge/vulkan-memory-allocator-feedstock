@@ -10,7 +10,7 @@ source:
   sha256: ae134ecc37c55634f108e926f85d5d887b670360e77cd107affaf3a9539595f2
 
 build:
-  number: 0
+  number: 1
   script:
     - mkdir -p ${PREFIX}/include/vma                                       # [unix]
     - cp ${SRC_DIR}/include/vk_mem_alloc.h ${PREFIX}/include/vma/          # [unix]
